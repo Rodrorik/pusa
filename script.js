@@ -31,7 +31,7 @@ class Heart {
   }
   update() {
     this.y -= this.speed;
-    this.opacity -= 0.005;
+    this.opacity -= 0.003;
   }
 }
 
