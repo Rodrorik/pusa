@@ -3,12 +3,12 @@ body {
   padding: 0;
   height: 100vh;
   overflow: hidden;
-  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+  background: linear-gradient(135deg, #000000, #3a0000); /* čierna do tmavočervenej */
   font-family: 'Segoe UI', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #ff1a1a; /* jasne červený text */
   text-align: center;
 }
 
@@ -19,16 +19,18 @@ body {
 
 h1 {
   font-size: 3em;
-  text-shadow: 0 0 20px rgba(255,255,255,0.8);
+  text-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
   animation: pulse 2s infinite;
-}
-.trait::first-letter {
-  color: red;
-  font-weight: bold;
-  font-size: 1.3em;
 }
 
 p {
+  font-size: 1.3em;
+  color: #ffffff; /* nech sa odlišuje od titulku */
+}
+
+.trait::first-letter {
+  color: red;
+  font-weight: bold;
   font-size: 1.3em;
 }
 
