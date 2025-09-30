@@ -25,7 +25,7 @@ class Heart {
     ctx.moveTo(0, -2);
     ctx.bezierCurveTo(2, -4, 4, 0, 0, 4);
     ctx.bezierCurveTo(-4, 0, -2, -4, 0, -2);
-    ctx.fillStyle = `rgba(255, 0, 80, ${this.opacity})`;
+    ctx.fillStyle = `rgba(255, 0, 0, ${this.opacity})`;
     ctx.fill();
     ctx.restore();
   }
