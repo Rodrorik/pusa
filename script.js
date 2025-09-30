@@ -31,7 +31,7 @@ class Heart {
   }
   update() {
     this.y -= this.speed;
-    this.opacity -= 0.003;
+    this.opacity -= 0.0005;
   }
 }
 
@@ -54,3 +54,4 @@ function animate() {
   requestAnimationFrame(animate);
 }
 animate();
+
