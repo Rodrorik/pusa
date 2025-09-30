@@ -39,7 +39,7 @@ function spawnHeart() {
   let x = Math.random() * canvas.width;
   let y = canvas.height + 10;
   let size = Math.random() * 0.6 + 0.2;
-  let speed = Math.random() * 2 + 0.5;
+  let speed = Math.random() * 10 + 0.5;
   hearts.push(new Heart(x, y, size * 10, speed));
 }
 
@@ -54,4 +54,5 @@ function animate() {
   requestAnimationFrame(animate);
 }
 animate();
+
 
